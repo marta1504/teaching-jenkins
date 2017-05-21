@@ -1,4 +1,4 @@
-Jenkins 
+Jenkins
 =======
 
 1. Uruchom jenkins-a:
@@ -8,10 +8,10 @@ Jenkins
      make build_jenkins
      make run_jenkins
 
-2. Otwórz w przeglądarce 127.0.0.1:8080, jeśli zostaniesz poproszony o hasło dla admina, wybierz:
+2. Otwórz w przeglądarce 127.0.0.1:9090, jeśli zostaniesz poproszony o hasło dla admina, wybierz:
 
    ::
 
-     cat jenkins/secrets/initialAdminPassword
+     make show_me_password
 
 3. Wybierz *Suggested plugins*.
